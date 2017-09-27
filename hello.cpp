@@ -8,6 +8,8 @@
 //image-loading library
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
+
+//try to add this to github
 //window resize
 void framebuffer_size_callback(GLFWwindow* window, int width, int height){
 	glViewport(0,0,width,height);
